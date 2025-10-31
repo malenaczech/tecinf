@@ -1,0 +1,48 @@
+.presentation{
+    width: 100vw;
+    height: 420px;
+    background-image: url(../resources/presentation.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    ;
+}
+
+.presentation__info{
+    padding-top: 6.2rem;
+}
+
+.presentation__text{
+    color: var(--salmon);
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.presentation__title{
+    font-family: "Caprasimo", serif;
+    color: var(--verde); 
+    font-size: 3.1rem;
+    font-weight: 300;
+}
+
+.presentation__subtitle{
+    font-family: "Vibur", cursive;
+    font-size: 2.5rem;
+    font-weight: 200;
+    color: var(--yolk);
+    margin-top: -1.2rem;
+}
+
+.presentation__button{
+    background-color: var(--yolk);
+    margin-top: 1.8rem;
+    width: 10.6rem;
+    height: 3.1rem;
+    font-size: 0.75rem;
+}
+
+@media (max-width:768px){
+
+
+}
+

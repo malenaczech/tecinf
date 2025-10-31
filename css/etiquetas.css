@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    overflow-x: hidden;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    overflow-x: hidden
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+h2{
+    font-family: "Caprasimo", serif;
+    color: var(--verde);
+    font-size: 45px;
+}
+
+h3{
+    font-family: "Vibur", cursive;
+    color: var(--yolk);
+    font-size: 35px;
+}
+
+h4{
+    color: var(--salmon);
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 0.6rem;
+}
+
+img{
+    border-radius: 0.6rem;
+}
+
+
+.hide{
+    display: none
+}
+
+.button{
+    background-color: var(--verde);
+    color: white;
+    border: none;
+    width: 120px;
+    height: 1.5rem;
+    border-radius: 0.3rem;
+    font-size: 0.6rem;
+    font-weight: 550;
+    box-shadow: 5px 5px 15px grey
+}
+

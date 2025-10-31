@@ -1,0 +1,85 @@
+
+@media (max-width:768px){
+    .presentation{
+        background-image: url(../resources/presentation-mq.png);
+        height: auto;
+    }
+    .presentation__info{
+        padding-top: 3rem;
+    }
+    .presentation__button{
+        margin-bottom: 1.5rem;
+    }
+    /*.about {
+        gap: 3rem;                    
+        max-width: 600px;   
+        margin: 2rem auto;                     
+    }*/
+
+}
+
+/*@media (max-width: 800px){
+    .about__img{
+        display: none;
+    }
+}*/
+
+@media (max-width: 700px){
+    .hidden{
+        display: none;
+    }
+    .menu {
+        flex-basis: 80%;
+        margin: 0 10%;
+        justify-content: center;
+    }
+    nav {
+
+        margin-left: 0px;
+    }
+    .menu a {
+        padding: 0.5rem;
+    }
+}
+
+@media (max-width: 505px){
+    .hidden{
+        display: none;
+    }
+    .hamburger-label {
+        display: block;
+        margin-left: 1.5rem;
+        margin-top: -1.2rem;
+    }
+    .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 4.5rem;
+        left: 0;
+        background: white;
+        padding: 1rem;
+        margin-left: 0.6rem;
+    }
+    /* Mostrar menú cuando el checkbox está checked */
+    #menu-toggle:checked ~ .menu {
+        display: flex;
+    }
+    .nav__item:hover{
+        width: 100%;
+        background-color: var(--verde);
+        color: var(--salmon);
+        transform: scale(0.9);
+        transition: 0.3s;
+    }
+    .presentation__info{
+        padding-top: 3rem;
+    }
+    .hide{
+        display: block;
+    }
+    /*.about {                    
+        max-width: 400px;                     
+    }*/
+}

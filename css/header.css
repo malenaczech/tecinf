@@ -1,0 +1,80 @@
+
+.head{
+    height: 1.5rem;
+    width: 100vw;
+    background-color: var(--salmon);
+    font-size: 0.6rem;
+    padding: 0.3rem;
+}
+
+.head__text{
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}
+.social__media{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background-color: var(--yolk);
+    text-align: center;
+    margin-right: 0.6rem;
+}
+
+.social{
+    width: 0.9rem;
+    margin-top: -0.18px;
+}
+
+.icons{
+    position: absolute;
+    right: 0;
+    margin-right: 50px;
+}
+
+
+
+
+.nav__item:hover{
+    transform: scale(0.9);
+    transition: 0.3s;
+}
+
+nav {
+    display: flex;
+    background: white;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: left
+}
+.menu a {
+    padding: 0.3rem;
+    font-size: 0.6rem;
+    font-weight: 700;
+    color: var(--verde);
+    text-decoration: none;
+}
+
+    /* Checkbox y botón hamburguesa ocultos por defecto*/
+#menu-toggle {
+    display: none;
+}
+.hamburger-label {
+    display: none;
+    cursor: pointer;
+    color: var(--yolk);
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+
+
+
+
+
