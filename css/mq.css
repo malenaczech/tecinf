@@ -1,4 +1,18 @@
 
+@media (max-width: 800px){
+    .about__img{
+        display: none;
+    }
+    .work{
+        gap: 5px;
+    }
+    .hover{
+        margin-left: 0.3rem;
+        margin-bottom: 0.3rem;
+    }
+}
+
+
 @media (max-width:768px){
     .presentation{
         background-image: url(../resources/presentation-mq.png);
@@ -15,14 +29,15 @@
         max-width: 600px;   
         margin: 2rem auto;                     
     }
-
-}
-
-@media (max-width: 800px){
-    .about__img{
-        display: none;
+    .hover .hover__text{
+        font-size: 1.3rem;
     }
+    .text__stickers{
+        margin-top: -4.5rem;
+    }
+
 }
+
 
 @media (max-width: 700px){
     .hidden{
@@ -39,6 +54,12 @@
     }
     .menu a {
         padding: 0.5rem;
+    }
+    .hover .hover__text{
+        font-size: 1.1rem;
+    }
+    .text__stickers{
+        margin-top: -4rem;
     }
 }
 
@@ -80,6 +101,9 @@
         display: block;
     }
     .about {                    
-        max-width: 200px;                     
+        max-width: 370px;          
+    }
+    .no{
+        display: block;
     }
 }

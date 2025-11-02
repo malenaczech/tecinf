@@ -31,7 +31,10 @@
     right: 0;
     margin-right: 50px;
 }
-
+.nav_button{
+    position: relative;
+    top: -0.2rem
+}
 
 
 
